@@ -9,3 +9,5 @@ Make Docker available on Jenkins server
 Create Jenkins credentials for a git repository
 
 Create different Jenkins job types(Freestyle,Pipeline,Multibranchpipeline)for the Java Maven project with Jenkins file to : Connect to the application's git repository Build Jar Build Docker Image Push to private DockerHub Repository
+
+
