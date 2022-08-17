@@ -18,5 +18,10 @@ Install Build Tools (Maven) in Jenkins through jenkins Plugin
 Connect to git repositrory in Jenkins job configuration
 Give Docker binary path (instaled on operating system) in shell script on Jenkins server and run docker commands to build the dockerfile.
 
+docker build -t shalinder/demo:java-maven-app-1.0 .
+echo $PASSWORD | docker login -u $USERNAME --password-stdin
+docker push shalinder/demo:java-maven-app-1.0
+
+-----------------------------------------------------------------------------------------------------------------------------------------
 b) Pipeline Job:-Run Jenkins as a container on Digital Ocean Droplet (Attach firewall rules, open port 8080)
 
