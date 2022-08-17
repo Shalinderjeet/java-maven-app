@@ -10,4 +10,6 @@ Create Jenkins credentials for a git repository
 
 Create different Jenkins job types(Freestyle,Pipeline,Multibranchpipeline)for the Java Maven project with Jenkins file to : Connect to the application's git repository Build Jar Build Docker Image Push to private DockerHub Repository
 
+a) Freestyle Project/jobs:- Configure github connection, run maven command to package the java project that will create a jar file and then run docker command to build a dockerfile. Check Freestyle.* screenshots.
 
+b) Pipeline Job:-
