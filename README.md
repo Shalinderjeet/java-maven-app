@@ -29,3 +29,6 @@ Create Jenkinsfile and groovy.script files with all the scrpts codes. Setup the 
 Please check the pipeline1.png for viewing the executed CI Pipeline
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+c) Multi branch Pipeline
+Create a multi branch pipeline with JenkinsfileMulti that will only run build and deploy on Main branch and not on jenkins-jobs branch as per the logic inside the Jenkins file.
+Check Multibranch.*png screenshots
