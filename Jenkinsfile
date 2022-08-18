@@ -16,7 +16,7 @@ pipeline {
         stage("build jar") {
             steps {
                 script {
-                    echo "building jar demooooo"
+                    echo "building jar demo90j"
                     gv.buildJar()
                 }
             }
