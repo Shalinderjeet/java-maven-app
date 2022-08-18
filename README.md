@@ -26,7 +26,8 @@ docker push shalinder/demo:java-maven-app-1.0
 b) Pipeline:-Run Jenkins as a container with docker installation on Jenkins on Digital Ocean Droplet (Attach firewall rules, open port 8080)
 
 Create Jenkinsfile and groovy.script files with all the scrpts codes. Setup the pipleline by connecting to the GIT repo choosing Jenkinsfile from SCM option.
-Please check the pipeline1.png for viewing the executed CI Pipeline
+Please check the pipeline1.png for viewing the executed CI Pipeline.
+Use GitHub hook trigger for GITScm polling option for auto pipleine triggering
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 c) Multi branch Pipeline
