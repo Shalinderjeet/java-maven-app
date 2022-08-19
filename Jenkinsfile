@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script {
                     echo "building image"
-                    buildImage()
+                    buildImage 'shalinder/demo:jma-4.0'
                  
                 }
             }
