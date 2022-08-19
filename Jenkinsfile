@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     echo "building jar demo90j"
-                   buidlJar()
+                   buildJar()
                 }
             }
         }
