@@ -44,7 +44,7 @@ Use this credentials in your Jenkinsfile-AWS
 
 Go to your pipleine-> Pipeline Syntax->Sample step->search ssh agent->select credentials->generate Pipeline script
 
-Connect to EC2 and deploy docker image on the server
+Connect to EC2 and deploy docker image on the server. Make sure you run docker login on EC2 first
 
 stage('deploy'){
  steps{
