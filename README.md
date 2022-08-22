@@ -49,7 +49,7 @@ Connect to EC2 and deploy docker image on the server. Make sure you run docker l
 stage('deploy'){
  steps{
    script{
-     def dockerCmd= 'docker run -p 3080:3080 -d shalinder/demo:1.0'
+     def dockerCmd= 'docker run -p 8080:8080 -d shalinder/demo:1.0'
       sshagent(['ec2-server-key']){
       sh "ssh -o StrictHostKeyChecking=no ec2-user@1035.180.251.121 ${dockerCmd}"
    }   
