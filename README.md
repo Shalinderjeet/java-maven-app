@@ -36,7 +36,7 @@ Check Multibranch.*png screenshots
 
 d) Application Version Increment Project
 
-e) Deploy to AWS -Full CICD Pipleine Demo
+e) Jenkins Pipleine to Deploy on AWS EC2
 
 Install SSH agent Plugin and create ssh credentials type (SSH username with private key)
 
