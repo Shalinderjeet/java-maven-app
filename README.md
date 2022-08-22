@@ -1,6 +1,6 @@
 Title:- Create a CI Pipeline with Jenkins file (Freestyle, Pipeline ,Multibranch Pipeline) using webhooks (Trigger Pipeline jobs automatically)
 
-Description:- CI Pipeline for a Java Maven application to build and push to the repository
+Description:- CI Pipeline for a Java Maven application to build and push to the repository with Version Increment.
 
 
 Create different Jenkins job types(Freestyle,Pipeline,Multibranchpipeline)for the Java Maven project with Jenkins file to : 
