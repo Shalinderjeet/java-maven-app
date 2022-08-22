@@ -57,7 +57,7 @@ stage('deploy'){
 }
 }//stage
 
-
+Security Group configured: Added Jenkins IP Address and opened port to access Web App from Browser
 
 
 
