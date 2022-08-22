@@ -59,5 +59,7 @@ stage('deploy'){
 
 Security Group configured: Added Jenkins IP Address and opened port to access Web App from Browser
 
+Run Jenkins Pipleine and execute the job
+
 
 
