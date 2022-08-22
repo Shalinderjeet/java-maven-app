@@ -61,5 +61,5 @@ Security Group configured: Added Jenkins IP Address and opened port to access We
 
 Run Jenkins Pipleine and execute the job
 
-
+For full Pipleine code-refer Jenkinsfile-AWS
 
