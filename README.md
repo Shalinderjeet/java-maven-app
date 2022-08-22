@@ -34,7 +34,7 @@ c) Multi branch Pipeline
 Create a multi branch pipeline with JenkinsfileMulti that will only run build and deploy on Main branch and not on jenkins-jobs branch as per the logic inside the Jenkins file.
 Check Multibranch.*png screenshots
 
-d) Application Version Increment Project- check Jenkinsfile-versionIncrement
+d) Application Version Increment Project- check Jenkinsfile-VersionIncrement
 
 e) Jenkins Pipleine to Deploy on AWS EC2
 
@@ -46,8 +46,16 @@ Go to your pipleine-> Pipeline Syntax->Sample step->search ssh agent->select cre
 
 Connect to EC2 and deploy docker image on the server
 
-
-
+stage('deploy'){
+ steps{
+   script{
+     def dockerCmd= 'docker run -p 3080:3080 -d shalinder/demo:1.0'
+      sshagent(['ec2-server-key']){
+      sh 'ssh -o StrictHostKeyChecking=no ec2-user@1035.180.251.121'
+   }   
+}
+}
+}//stage
 
 
 
