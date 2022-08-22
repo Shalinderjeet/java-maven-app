@@ -33,3 +33,21 @@ Use GitHub hook trigger for GITScm polling option for auto pipleine triggering
 c) Multi branch Pipeline
 Create a multi branch pipeline with JenkinsfileMulti that will only run build and deploy on Main branch and not on jenkins-jobs branch as per the logic inside the Jenkins file.
 Check Multibranch.*png screenshots
+
+d) Application Version Increment Project
+
+e) Deploy to AWS -Full CICD Pipleine Demo
+
+Install SSH agent Plugin and create ssh credentials type (SSH username with private key)
+
+Use this credentials in your Jenkinsfile-AWS
+
+Go to your pipleine-> Pipeline Syntax->Sample step->search ssh agent->select credentials->generate Pipeline script
+
+Connect to EC2 
+
+
+
+
+
+
